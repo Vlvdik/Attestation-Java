@@ -1,0 +1,31 @@
+@name=GetTask
+GET https://localhost:8080/api/v1/task?Num=
+Content-Type: application/json
+
+###
+
+@name=GetTestValues
+GET https://localhost:8080/api/v1/test?taskId=
+Content-Type: application/json
+
+###
+
+@name=SubmitTask
+POST https://localhost:8080/api/v1/submit
+Content-Type: application/json
+
+{
+    "task_id": 1,
+    "output": {"case_id": {"a": 1}}
+}
+
+###
+
+@name=SubmitTaskResponse
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{
+   "status": "passed",
+   "description": ""
+}
