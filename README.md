@@ -20,7 +20,7 @@ Content-Type: application/json
 
 {
     "task_id": 1,
-    "output": {"case_id": {"a": 1}}
+    "output": [{"case_id": {"a": 1}}]
 }
 
 ###
