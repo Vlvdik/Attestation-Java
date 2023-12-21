@@ -1,1 +1,1 @@
-# Attestation-Java
+# Attestation-Java 2 course.
